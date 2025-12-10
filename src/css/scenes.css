@@ -28,6 +28,11 @@ header nav {
     padding: 1.5rem 2rem;
     display: flex;
     justify-content: flex-end;
+    pointer-events: none;
+}
+
+header nav .menu-toggle {
+    pointer-events: auto;
 }
 
 .header-background {
@@ -51,6 +56,19 @@ header nav {
     transform: none;
     text-align: left;
     z-index: 998;
+    pointer-events: auto;
+}
+
+.logo-overlay a {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: opacity 0.3s ease;
+    pointer-events: auto;
+}
+
+.logo-overlay a:hover {
+    opacity: 0.8;
 }
 
 .logo-overlay h1 {
@@ -97,7 +115,8 @@ header nav {
     font-weight: 700;
     color: #ffffff;
     text-align: left;
-    padding: 3rem 2rem 2rem 32px;
+    padding: 3rem 2rem 0 32px;
+    margin-bottom: 33px;
     letter-spacing: 0;
     line-height: 1.1;
     text-transform: uppercase;
@@ -106,7 +125,7 @@ header nav {
 /* Cartes des scènes */
 .scene-card {
     position: relative;
-    margin: 2rem 32px;
+    margin: 0 32px 11px 32px;
     width: 326px;
     height: 185px;
     border-radius: 30px;
@@ -116,13 +135,13 @@ header nav {
 .scene-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;  
     display: block;
 }
 
 .btn-scene {
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 1.5rem; 
     left: 1.5rem;
     background-color: #ffffff;
     color: #101B2B;
@@ -141,8 +160,8 @@ header nav {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1px !important;
+    margin-bottom: 1rem;    
     margin-left: 32px;
 }
     
