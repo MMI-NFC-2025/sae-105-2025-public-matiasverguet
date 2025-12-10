@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chorus Symphonia - Festival 2026</title>
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/index.css">
 </head>
 <body>
 
@@ -12,14 +14,37 @@
             <button class="user-icon" aria-label="Compte utilisateur">
                 <img src="assets/Icon/moncompte.avif" alt="Utilisateur">
             </button>
-            <button class="menu-icon" aria-label="Menu">
-                <img src="assets/Icon/ouvrirlemenu.avif" alt="Menu">
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <img src="assets/Icon/ouvrirlemenu.avif" alt="Ouvrir le menu" class="menu-open">
+                <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu" class="menu-close" style="display: none;">
             </button>
         </nav>
     </header>
 
+    <nav class="menu-overlay" id="menu" aria-hidden="true">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu">
+        </button>
+        <div class="menu-content">
+            <div class="menu-header">
+                <a href="index.html">
+                    <img src="assets/img/menu/logo.avif" alt="Chorus Symphonia" class="menu-logo">
+                </a>
+            </div>
+            
+            <ul class="menu-nav">
+                <li><a href="scenes.html">Les scènes</a></li>
+                <li><a href="#">Programmation</a></li>
+                <li><a href="#">Artistes</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Infos pratiques</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <section class="hero">
-        <img src="assets/img/page d'acceuil/hero page d'acceuil.avif" alt="Citadelle de Besançon" class="hero-background">
+        <img src="assets/img/page_d'acceuil/hero_page_d'acceuil.avif" alt="Citadelle de Besançon" class="hero-background">
         
         <div class="hero-content">
             <h1>CHORUS SYMPHONIA</h1>
@@ -56,24 +81,24 @@
 
     
     <section class="info-card">
-        <img src="assets/img/page d'acceuil/info pratique.avif" alt="Vue aérienne de la Citadelle" class="info-image">
+        <img src="assets/img/page_d'acceuil/info_pratique.avif" alt="Vue aérienne de la Citadelle" class="info-image">
         <button class="btn-secondary">INFOS PRATIQUES</button>
     </section>
 
     <section class="program-card">
-        <img src="assets/img/page d'acceuil/concert orchestre.webp" alt="Orchestre symphonique" class="program-image">
+        <img src="assets/img/page_d'acceuil/concert_orchestre.webp" alt="Orchestre symphonique" class="program-image">
         <button class="btn-secondary">PROGRAMMATION</button>
     </section>
 
     <section class="artists-card">
-        <img src="assets/img/page d'acceuil/artistesinvité.avif" alt="Chef d'orchestre" class="artists-image">
+        <img src="assets/img/page_d'acceuil/artistesinvité.avif" alt="Chef d'orchestre" class="artists-image">
         <button class="btn-secondary">ARTISTES INVITÉS</button>
     </section>
 
     <section class="partners">
         <div class="partners-logos">
-            <img src="assets/img/page d'acceuil/grand besancon.avif" alt="Grand Besançon Métropole" class="partner-logo">
-            <img src="assets/img/page d'acceuil/citadelle logo.avif" alt="Citadelle de Besançon" class="partner-logo">
+            <img src="assets/img/page_d'acceuil/grand_besancon.avif" alt="Grand Besançon Métropole" class="partner-logo">
+            <img src="assets/img/page_d'acceuil/citadelle_logo.avif" alt="Citadelle de Besançon" class="partner-logo">
         </div>
     </section>
 
@@ -94,21 +119,26 @@
         </div>
 
         <nav class="footer-nav">
-            <a>Partenaires</a>
-            <span>·</span>
-            <a>Actualités</a>
-            <span>·</span>
-            <a>Contact</a>
-            <span>·</span>
-            <a>Mentions légales</a>
-            <span>·</span>
-            <a>Politique de cookies</a>
+            <div class="footer-nav-line1">
+                <a>Partenaires</a>
+                <span>·</span>
+                <a>Actualités</a>
+                <span>·</span>
+                <a>Contact</a>
+            </div>
+            <div class="footer-nav-line2">
+                <a>Mentions légales</a>
+                <span>·</span>
+                <a>Politique de cookies</a>
+            </div>
         </nav>
 
         <div class="footer-hero">
-            <img src="assets/img/page d'acceuil/footer.avif" alt="Citadelle Besançon - Patrimoine mondial, vecteur d'émotion" class="footer-background">
+            <img src="assets/img/page_d'acceuil/footer.avif" alt="Citadelle Besançon - Patrimoine mondial, vecteur d'émotion" class="footer-background">
         </div>
     </footer>
+
+    <script src="src/js/menu.js"></script>
     
 </body>
 </html>

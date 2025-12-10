@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Scènes - Chorus Symphonia</title>
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/scenes.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <img src="assets/Icon/ouvrirlemenu.avif" alt="Ouvrir le menu" class="menu-open">
+                <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu" class="menu-close" style="display: none;">
+            </button>
+        </nav>
+        <div class="header-background">
+            <img src="assets/img/scenes/hero.avif" alt="Scène du festival" class="header-bg-image">
+            <div class="logo-overlay">
+                <h1>CHORUS<br>SYMPHONIA</h1>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu-overlay" id="menu" aria-hidden="true">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu">
+        </button>
+        <div class="menu-content">
+            <div class="menu-header">
+                <a href="index.html">
+                    <img src="assets/img/menu/logo.avif" alt="Chorus Symphonia" class="menu-logo">
+                </a>
+            </div>
+            
+            <ul class="menu-nav">
+                <li><a href="scenes.html">Les scènes</a></li>
+                <li><a href="#">Programmation</a></li>
+                <li><a href="#">Artistes</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Infos pratiques</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h2 class="page-title">LES SCÈNES</h2>
+
+        <section class="scene-card">
+            <img src="assets/img/scenes/la_cour_des_muses.avif" alt="La Cour des Muses" class="scene-image">
+            <button class="btn-scene">VOIR</button>
+        </section>
+        <h3 class="scene-title">La Cour des Muses</h3>
+
+        <section class="scene-card">
+            <img src="assets/img/scenes/le_bastion.avif" alt="Le Bastion" class="scene-image">
+            <button class="btn-scene">VOIR</button>
+        </section>
+        <h3 class="scene-title">Le Bastion</h3>
+
+        <section class="scene-card">
+            <img src="assets/img/scenes/l'amphithéatre.avif" alt="L'Amphithéâtre" class="scene-image">
+            <button class="btn-scene">VOIR</button>
+        </section>
+        <h3 class="scene-title">L'Amphithéâtre</h3>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="#" aria-label="YouTube">
+                <img src="assets/Icon/youtube.avif" alt="YouTube">
+            </a>
+            <a href="#" aria-label="Twitter">
+                <img src="assets/Icon/twitter.avif" alt="Twitter">
+            </a>
+            <a href="#" aria-label="Instagram">
+                <img src="assets/Icon/instagram.avif" alt="Instagram">
+            </a>
+            <a href="#" aria-label="Facebook">
+                <img src="assets/Icon/facebook.avif" alt="Facebook">
+            </a>
+        </div>
+
+        <nav class="footer-nav">
+            <div class="footer-nav-line1">
+                <a>Partenaires</a>
+                <span>·</span>
+                <a>Actualités</a>
+                <span>·</span>
+                <a>Contact</a>
+            </div>
+            <div class="footer-nav-line2">
+                <a>Mentions légales</a>
+                <span>·</span>
+                <a>Politique de cookies</a>
+            </div>
+        </nav>
+
+        <div class="footer-hero">
+            <img src="assets/img/page_d'acceuil/footer.avif" alt="Citadelle Besançon" class="footer-background">
+        </div>
+    </footer>
+
+    <script src="src/js/menu.js"></script>
+</body>
+</html>
