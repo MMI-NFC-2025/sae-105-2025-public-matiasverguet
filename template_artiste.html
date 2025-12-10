@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurélien Vivaldi - Chorus Symphonia</title>
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/template_artiste.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <img src="assets/Icon/ouvrirlemenu.avif" alt="Ouvrir le menu" class="menu-open">
+                <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu" class="menu-close" style="display: none;">
+            </button>
+        </nav>
+        <div class="header-background">
+            <img src="assets/img/template artiste/hero.avif" alt="Aurélien Vivaldi au piano" class="header-bg-image">
+        </div>
+    </header>
+
+    <nav class="menu-overlay" id="menu" aria-hidden="true">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu">
+        </button>
+        <div class="menu-content">
+            <div class="menu-header">
+                <a href="index.html">
+                    <img src="assets/img/menu/logo.avif" alt="Chorus Symphonia" class="menu-logo">
+                </a>
+            </div>
+            
+            <ul class="menu-nav">
+                <li><a href="scenes.html">Les scènes</a></li>
+                <li><a href="programmation.html">Programmation</a></li>
+                <li><a href="artistes.html">Artistes</a></li>
+                <li><a href="a_propos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="info_pratique.html">Infos pratiques</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="artist-main">
+        <div class="artist-content">
+            <h1 class="artist-name">Aurélien<br>Vivaldi (Piano)</h1>
+            <p class="artist-performance">Sur la scène Le Bastion le 28/08 à 20H45</p>
+            
+            <div class="artist-bio">
+                <p>Aurélien Vivaldi est reconnu comme l'un des virtuoses du piano les plus émouvants de sa génération. Salué par la critique pour sa technique flamboyante, il ne se contente pas de jouer les partitions : il les vit.</p>
+                
+                <p>Formé au Conservatoire de Paris et perfectionné auprès des maîtres à Vienne, Aurélien s'est spécialisé dans les œuvres romantiques, notamment les pièces de Chopin et les concertos grandioses de Rachmaninov.</p>
+            </div>
+
+            <div class="navigation-arrows">
+                <button class="arrow-btn prev-btn" aria-label="Artiste précédent">
+                    <img src="assets/Icon/caroussel/flechegauche.avif" alt="">
+                </button>
+                <button class="arrow-btn next-btn" aria-label="Artiste suivant">
+                    <img src="assets/Icon/caroussel/flechedroite.avif" alt="">
+                </button>
+            </div>
+
+            <div class="artist-gallery">
+                <img src="assets/img/template artiste/caroussel/1.png" alt="Aurélien Vivaldi en concert" class="gallery-image">
+                <img src="assets/img/template artiste/caroussel/2.png" alt="Aurélien Vivaldi en concert" class="gallery-image">
+                <img src="assets/img/template artiste/caroussel/3.png" alt="Aurélien Vivaldi en concert" class="gallery-image">
+                <img src="assets/img/template artiste/caroussel/4.png" alt="Aurélien Vivaldi en concert" class="gallery-image">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-hero">
+            <div class="footer-content">
+                <div class="social-media">
+                    <a href="#"><img src="assets/Icon/youtube.avif" alt="YouTube"></a>
+                    <a href="#"><img src="assets/Icon/instagram.avif" alt="Instagram"></a>
+                    <a href="#"><img src="assets/Icon/twitter.avif" alt="Twitter"></a>
+                    <a href="#"><img src="assets/Icon/facebook.avif" alt="Facebook"></a>
+                </div>
+                <nav class="footer-nav">
+                    <div class="footer-nav-row">
+                        <a href="#">Partenaires</a>
+                        <a href="#">Actualités</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="footer-nav-row">
+                        <a href="#">Mentions légales</a>
+                        <a href="#">Politique de cookies</a>
+                    </div>
+                </nav>
+            </div>
+            <img src="assets/img/page_d'acceuil/footer.avif" alt="Citadelle de Besançon" class="footer-background">
+        </div>
+    </footer>
+
+    <script src="src/js/menu.js"></script>
+</body>
+</html>

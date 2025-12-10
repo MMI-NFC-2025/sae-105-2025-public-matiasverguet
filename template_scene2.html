@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Scènes - Chorus Symphonia</title>
+    <title>L'Amphithéâtre - Chorus Symphonia</title>
     <link rel="stylesheet" href="src/css/menu.css">
-    <link rel="stylesheet" href="src/css/scenes.css">
+    <link rel="stylesheet" href="src/css/template_scene.css">
 </head>
 <body>
     <header>
         <nav>
+            <a href="scenes.html" class="back-btn">
+                <img src="assets/Icon/flecheback.avif" alt="Retour">
+            </a>
             <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
                 <img src="assets/Icon/ouvrirlemenu.avif" alt="Ouvrir le menu" class="menu-open">
                 <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu" class="menu-close" style="display: none;">
             </button>
         </nav>
         <div class="header-background">
-            <img src="assets/img/scenes/hero.avif" alt="Scène du festival" class="header-bg-image">
-            <div class="logo-overlay">
-                <a href="index.html">
-                    <h1>CHORUS<br>SYMPHONIA</h1>
-                </a>
-            </div>
+            <img src="assets/img/templates_scene/l'amphithéâtre.avif" alt="L'Amphithéâtre" class="header-bg-image">
         </div>
     </header>
 
@@ -48,31 +46,50 @@
     </nav>
 
     <main>
-        <h2 class="page-title">LES SCÈNES</h2>
+        <section class="scene-info">
+            <h1 class="scene-title">L'Amphithéâtre</h1>
+            
+            <p class="scene-description">
+                Le cœur battant de Chorus Symphonia. Située dans la plus grande cour de la Citadelle, cette 
+                scène spectaculaire accueille nos têtes d'affiche lyriques et les grands orchestres. 
+                C'est ici que la musique classique prend toute son ampleur, sous le plus beau des plafonds : la 
+                voûte étoilée de Besançon. L'expérience immersive est garantie.
+            </p>
+        </section>
 
-        <a href="template_scene1.html">
-            <section class="scene-card">
-                <img src="assets/img/scenes/la_cour_des_muses.avif" alt="La Cour des Muses" class="scene-image">
-                <button class="btn-scene">VOIR</button>
-            </section>
-            <h3 class="scene-title">La Cour des Muses</h3>
-        </a>
+        <section class="artists-list">
+            <div class="artist-item">
+                <img src="assets/img/artistes/carmen.avif" alt="Carmen" class="artist-photo">
+                <div class="artist-info">
+                    <h3 class="artist-name">Carmen (Orchestre)</h3>
+                    <p class="artist-date">28/08/2026 à 21H30</p>
+                </div>
+            </div>
 
-        <a href="template_scene3.html">
-            <section class="scene-card">
-                <img src="assets/img/scenes/le_bastion.avif" alt="Le Bastion" class="scene-image">
-                <button class="btn-scene">VOIR</button>
-            </section>
-            <h3 class="scene-title">Le Bastion</h3>
-        </a>
+            <div class="artist-item">
+                <img src="assets/img/artistes/clara_selene.avif" alt="Clara Sélène" class="artist-photo">
+                <div class="artist-info">
+                    <h3 class="artist-name">Clara Sélène</h3>
+                    <p class="artist-date">29/08/2026 à 21H</p>
+                </div>
+            </div>
 
-        <a href="template_scene2.html">
-            <section class="scene-card">
-                <img src="assets/img/scenes/l'amphithéatre.avif" alt="L'Amphithéâtre" class="scene-image">
-                <button class="btn-scene">VOIR</button>
-            </section>
-            <h3 class="scene-title">L'Amphithéâtre</h3>
-        </a>
+            <div class="artist-item">
+                <img src="assets/img/artistes/trio.avif" alt="Trio Orphée & Amis" class="artist-photo">
+                <div class="artist-info">
+                    <h3 class="artist-name">Trio Orphée & Amis</h3>
+                    <p class="artist-date">30/08/2026 à 21H</p>
+                </div>
+            </div>
+
+            <div class="artist-item">
+                <img src="assets/img/artistes/anna.avif" alt="Anna Volkov" class="artist-photo">
+                <div class="artist-info">
+                    <h3 class="artist-name">Anna Volkov</h3>
+                    <p class="artist-date">31/08/2026 à 21H15</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -93,16 +110,16 @@
 
         <nav class="footer-nav">
             <div class="footer-nav-line1">
-                <a>Partenaires</a>
+                <a href="#">Partenaires</a>
                 <span>·</span>
-                <a>Actualités</a>
+                <a href="#">Actualités</a>
                 <span>·</span>
-                <a>Contact</a>
+                <a href="contact.html">Contact</a>
             </div>
             <div class="footer-nav-line2">
-                <a>Mentions légales</a>
+                <a href="#">Mentions légales</a>
                 <span>·</span>
-                <a>Politique de cookies</a>
+                <a href="#">Politique de cookies</a>
             </div>
         </nav>
 

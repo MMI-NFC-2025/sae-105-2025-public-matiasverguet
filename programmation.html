@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chorus Symphonia - Festival 2026</title>
+    <title>Le Programme - Chorus Symphonia</title>
     <link rel="stylesheet" href="src/css/menu.css">
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/programmation.css">
 </head>
 <body>
-
     <header>
         <nav>
-            <button class="user-icon" aria-label="Compte utilisateur">
-                <img src="assets/Icon/moncompte.avif" alt="Utilisateur">
-            </button>
             <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
                 <img src="assets/Icon/ouvrirlemenu.avif" alt="Ouvrir le menu" class="menu-open">
                 <img src="assets/Icon/fermerlemenu.avif" alt="Fermer le menu" class="menu-close" style="display: none;">
             </button>
         </nav>
+        <div class="header-background">
+            <img src="assets/img/prog/hero.avif" alt="Concert" class="header-bg-image">
+            <div class="logo-overlay">
+                <a href="index.html">
+                    <h1>CHORUS<br>SYMPHONIA</h1>
+                </a>
+            </div>
+        </div>
     </header>
 
     <nav class="menu-overlay" id="menu" aria-hidden="true">
@@ -43,64 +47,20 @@
         </div>
     </nav>
 
-    <section class="hero">
-        <img src="assets/img/page_d'acceuil/hero_page_d'acceuil.avif" alt="Citadelle de Besançon" class="hero-background">
-        
-        <div class="hero-content">
-            <h1>CHORUS SYMPHONIA</h1>
-            <p class="event-date">Rendez vous les 28,29,30 et 31 août 2026</p>
-        </div>
-    </section>
+    <main>
+        <h2 class="page-title">LE PROGRAMME</h2>
 
-    <section class="countdown">
-        <div class="countdown-item">
-            <span class="countdown-number">215</span>
-            <span class="countdown-label">JOURS</span>
+        <div class="program-image-container">
+            <img src="assets/img/prog/prog.avif" alt="Programme du festival" class="program-image">
         </div>
-        <div class="countdown-item">
-            <span class="countdown-number">23</span>
-            <span class="countdown-label">HEURES</span>
+
+        <div class="download-section">
+            <button class="btn-download">
+                TÉLÉCHARGER EN PDF
+                <img src="assets/Icon/flechedownload.avif" alt="">
+            </button>
         </div>
-        <div class="countdown-item">
-            <span class="countdown-number">02</span>
-            <span class="countdown-label">MINUTES</span>
-        </div>
-        <div class="countdown-item">
-            <span class="countdown-number">09</span>
-            <span class="countdown-label">SECONDES</span>
-        </div>
-    </section>
-
-    
-    <section class="ticket-section">
-        <button class="btn-primary">
-            ACHETER MES BILLETS
-            <img src="assets/Icon/caroussel/flechedroite.avif" alt="">
-        </button>
-    </section>
-
-    
-    <section class="info-card">
-        <img src="assets/img/page_d'acceuil/info_pratique.avif" alt="Vue aérienne de la Citadelle" class="info-image">
-        <button class="btn-secondary">INFOS PRATIQUES</button>
-    </section>
-
-    <section class="program-card">
-        <img src="assets/img/page_d'acceuil/concert_orchestre.webp" alt="Orchestre symphonique" class="program-image">
-        <button class="btn-secondary">PROGRAMMATION</button>
-    </section>
-
-    <section class="artists-card">
-        <img src="assets/img/page_d'acceuil/artistesinvité.avif" alt="Chef d'orchestre" class="artists-image">
-        <button class="btn-secondary">ARTISTES INVITÉS</button>
-    </section>
-
-    <section class="partners">
-        <div class="partners-logos">
-            <img src="assets/img/page_d'acceuil/grand_besancon.avif" alt="Grand Besançon Métropole" class="partner-logo">
-            <img src="assets/img/page_d'acceuil/citadelle_logo.avif" alt="Citadelle de Besançon" class="partner-logo">
-        </div>
-    </section>
+    </main>
 
     <footer>
         <div class="social-media">
@@ -134,11 +94,10 @@
         </nav>
 
         <div class="footer-hero">
-            <img src="assets/img/page_d'acceuil/footer.avif" alt="Citadelle Besançon - Patrimoine mondial, vecteur d'émotion" class="footer-background">
+            <img src="assets/img/page_d'acceuil/footer.avif" alt="Citadelle Besançon" class="footer-background">
         </div>
     </footer>
 
     <script src="src/js/menu.js"></script>
-    
 </body>
 </html>
