@@ -1,3 +1,5 @@
+// url : https://chorus-symphonia.verguet-bailly.fr/ et sur tout les pages du site
+
 const menuToggle = document.querySelector('.menu-toggle');
 const menu = document.getElementById('menu');
 const menuOpen = document.querySelector('.menu-open');

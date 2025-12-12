@@ -1,3 +1,5 @@
+// url: https://chorus-symphonia.verguet-bailly.fr/template_artiste
+
 const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
 const carouselTrack = document.querySelector('.artist-gallery');

@@ -1,3 +1,5 @@
+// url : https://chorus-symphonia.verguet-bailly.fr/
+
 const targetDate = new Date('2026-08-28T18:00:00').getTime();
 
 function updateCountdown() {

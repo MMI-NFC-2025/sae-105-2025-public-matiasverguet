@@ -7,7 +7,7 @@
 - PRÉNOM : Matias
 - GROUPE : C1
 - URL du site : [chorus-symphonia.verguet-bailly.fr ](https://chorus-symphonia.verguet-bailly.fr/)
-- URL FIGMA :z
+- URL FIGMA : https://www.figma.com/design/usq1bz0cVckOY43GVjOnvh/SAE-105?node-id=16-130&t=Jg07s6x14SctcAcH-1 
 
 ## Sujet
 
