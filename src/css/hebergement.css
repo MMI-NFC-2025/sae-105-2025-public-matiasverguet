@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Krub:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Krub', sans-serif;
 }
-
 html {
     background-color: #101B2B;
 }
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: #101B2B;
 }
-
-/* Header */
 header {
     position: relative;
 }
-
 header nav {
     position: fixed;
     top: 0;
@@ -35,25 +29,21 @@ header nav {
     align-items: center;
     pointer-events: none;
 }
-
 header nav .back-btn,
 header nav .menu-toggle {
     pointer-events: auto;
 }
-
 main {
     flex: 1;
     padding: 3rem 0;
     padding-left: 32px;
 }
-
 .page-title {
     color: #ffffff;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 3rem;
 }
-
 .section-subtitle {
     color: #ffffff;
     font-size: 28px;
@@ -61,22 +51,18 @@ main {
     font-style: italic;
     margin-bottom: 1.5rem;
 }
-
 .hotels-section,
 .airbnb-section {
     margin-bottom: 2rem;
 }
-
 .hotel-card,
 .airbnb-card {
     position: relative;
     margin-bottom: 2rem;
 }
-
 .hotel-card {
     position: relative;
 }
-
 .hotel-image,
 .airbnb-map {
     width: 326px;
@@ -86,7 +72,6 @@ main {
     margin-bottom: 0;
     object-fit: cover;
 }
-
 .reserve-btn {
     position: absolute;
     bottom: 120px;
@@ -102,11 +87,9 @@ main {
     transition: transform 0.3s ease;
     text-transform: uppercase;
 }
-
 .reserve-btn:hover {
     transform: scale(1.05);
 }
-
 .hotel-name {
     color: #ffffff;
     font-size: 16px;
@@ -115,7 +98,6 @@ main {
     margin-bottom: 0.5rem;
     text-transform: uppercase;
 }
-
 .hotel-price,
 .airbnb-price {
     color: #ffffff;
@@ -126,18 +108,15 @@ main {
     line-height: 157%;
     letter-spacing: -2%;
 }
-
 .price-unit {
     color: #ffffff;
     font-size: 14px;
     font-weight: normal;
 }
-
 header nav .back-btn,
 header nav .menu-toggle {
     pointer-events: auto;
 }
-
 .back-btn {
     background-color: #E9D0A7;
     border: none;
@@ -151,16 +130,13 @@ header nav .menu-toggle {
     transition: transform 0.3s ease;
     text-decoration: none;
 }
-
 .back-btn:hover {
     transform: scale(1.05);
 }
-
 .back-btn img {
     width: 28px;
     height: 28px;
 }
-
 .menu-toggle {
     background: transparent;
     border: none;
@@ -172,29 +148,24 @@ header nav .menu-toggle {
     justify-content: center;
     transition: transform 0.3s ease;
 }
-
 .menu-toggle:hover {
     transform: scale(1.05);
 }
-
 .menu-toggle img {
     width: 40px;
     height: 40px;
 }
-
 .header-background {
     position: relative;
     width: 100%;
     height: 300px;
     overflow: hidden;
 }
-
 .header-background img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .logo-overlay {
     position: absolute;
     top: 50%;
@@ -202,7 +173,6 @@ header nav .menu-toggle {
     transform: translate(-50%, -50%);
     z-index: 10;
 }
-
 .logo-overlay a {
     text-decoration: none;
     font-family: 'Ramaraja', serif;
@@ -215,23 +185,16 @@ header nav .menu-toggle {
     line-height: 1.2;
     text-align: center;
 }
-
-
-
-
-/* Footer */
 footer {
     background-color: #101B2B;
     padding-top: 2rem;
 }
-
 .social-media {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     margin-bottom: 0rem;
 }
-
 .social-media a {
     width: 50px;
     height: 50px;
@@ -239,50 +202,41 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 .social-media a:hover {
     transform: scale(1.1);
 }
-
 .social-media img {
     width: 29px;
     height: 29px;
 }
-
 .footer-nav {
     text-align: center;
     padding: 1rem 2rem;
     font-size: 0.875rem;
     color: #E9D0A7;
 }
-
 .footer-nav-line1,
 .footer-nav-line2 {
     margin: 0.5rem 0;
 }
-
 .footer-nav a {
     color: #E9D0A7;
     text-decoration: none;
     cursor: pointer;
     transition: color 0.3s ease;
 }
-
 .footer-nav a:hover {
     color: #E9D0A7;
 }
-
 .footer-nav span {
     margin:  0.10rem;
     color: #ffffff;
 }
-
 .footer-hero {
     position: relative;
     width: 100%;
     height: 275px;
 }
-
 .footer-hero::before {
     content: '';
     position: absolute;
@@ -294,11 +248,9 @@ footer {
     z-index: 1;
     pointer-events: none;
 }
-
 .footer-background {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-   
 }

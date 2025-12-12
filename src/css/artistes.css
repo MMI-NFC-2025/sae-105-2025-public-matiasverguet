@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Krub:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Krub', sans-serif;
     background-color: #101B2B;
     color: #ffffff;
 }
-
-/* Header */
 header {
     position: relative;
 }
-
 header nav {
     position: fixed;
     top: 0;
@@ -28,24 +23,20 @@ header nav {
     justify-content: flex-end;
     pointer-events: none;
 }
-
 header nav .menu-toggle {
     pointer-events: auto;
 }
-
 .header-background {
     position: relative;
     width: 100%;
     height: 300px;
     overflow: hidden;
 }
-
 .header-bg-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .logo-overlay {
     position: fixed;
     top: 1.75rem;
@@ -55,7 +46,6 @@ header nav .menu-toggle {
     z-index: 998;
     pointer-events: auto;
 }
-
 .logo-overlay a {
     text-decoration: none;
     cursor: pointer;
@@ -63,11 +53,9 @@ header nav .menu-toggle {
     transition: opacity 0.3s ease;
     pointer-events: auto;
 }
-
 .logo-overlay a:hover {
     opacity: 0.8;
 }
-
 .logo-overlay h1 {
     font-family: 'Ramaraja', serif;
     font-size: 1.20rem;
@@ -80,7 +68,6 @@ header nav .menu-toggle {
     line-height: 0.9;
     text-align: left;
 }
-
 .menu-toggle {
     background: transparent;
     border: none;
@@ -92,39 +79,31 @@ header nav .menu-toggle {
     justify-content: center;
     transition: transform 0.3s ease;
 }
-
 .menu-toggle:hover {
     transform: scale(1.1);
 }
-
 .menu-toggle img {
     width: 40px;
     height: 40px;
 }
-
-/* Main */
 main {
     padding: 40px 32px;
 }
-
 .page-title {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
     text-align: left;
 }
-
 .date-section {
     margin-bottom: 50px;
 }
-
 .date-title {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 30px;
     color: #E9D0A7;
 }
-
 .artist-item {
     display: flex;
     align-items: center;
@@ -134,11 +113,9 @@ main {
     color: #ffffff;
     transition: opacity 0.3s ease;
 }
-
 .artist-item:hover {
     opacity: 0.8;
 }
-
 .artist-photo {
     width: 50px;
     height: 50px;
@@ -149,73 +126,59 @@ main {
     border: 2px solid #101B2B;
     box-shadow: 0 0 0 2px #ffffff;
 }
-
 .artist-info {
     flex: 1;
 }
-
 .artist-name {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 5px;
 }
-
 .artist-details {
     font-size: 14px;
     color: #E9D0A7;
 }
-
-/* Footer */
 footer {
     background-color: #101B2B;
 }
-
 .social-media {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     padding: 2rem 0 1rem;
 }
-
 .social-media a img {
     width: 32px;
     height: 32px;
 }
-
 .footer-nav {
     text-align: center;
     padding: 1rem 2rem;
     font-size: 0.875rem;
     color: #E9D0A7;
 }
-
 .footer-nav-line1,
 .footer-nav-line2 {
     margin: 0.5rem 0;
 }
-
 .footer-nav a {
     color: #E9D0A7;
     text-decoration: none;
     cursor: pointer;
     transition: color 0.3s ease;
 }
-
 .footer-nav a:hover {
     color: #E9D0A7;
 }
-
 .footer-nav span {
     margin: 0.10rem;
     color: #ffffff;
 }
-
 .footer-hero {
     position: relative;
     width: 100%;
     height: 275px;
 }
-
 .footer-hero::before {
     content: '';
     position: absolute;
@@ -227,7 +190,6 @@ footer {
     z-index: 1;
     pointer-events: none;
 }
-
 .footer-background {
     width: 100%;
     height: 100%;

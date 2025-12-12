@@ -1,4 +1,3 @@
-// Gestion du menu déroulant
 const menuToggle = document.querySelector('.menu-toggle');
 const menu = document.getElementById('menu');
 const menuOpen = document.querySelector('.menu-open');
@@ -10,14 +9,12 @@ if (menuToggle && menu && menuOpen && menuClose) {
         const isOpen = menu.getAttribute('aria-hidden') === 'false';
         
         if (isOpen) {
-            // Fermer le menu
             menu.setAttribute('aria-hidden', 'true');
             menuToggle.setAttribute('aria-expanded', 'false');
             menuOpen.style.display = 'block';
             menuClose.style.display = 'none';
             document.body.style.overflow = 'auto';
         } else {
-            // Ouvrir le menu
             menu.setAttribute('aria-hidden', 'false');
             menuToggle.setAttribute('aria-expanded', 'true');
             menuOpen.style.display = 'none';
@@ -27,7 +24,6 @@ if (menuToggle && menu && menuOpen && menuClose) {
     });
 }
 
-// Bouton fermer dans le menu
 if (menuCloseBtn && menu) {
     menuCloseBtn.addEventListener('click', () => {
         menu.setAttribute('aria-hidden', 'true');

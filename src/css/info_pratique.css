@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Krub:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Krub', sans-serif;
     background-color: #101B2B;
     color: #ffffff;
 }
-
-/* Header */
 header {
     position: relative;
 }
-
 header nav {
     position: fixed;
     top: 0;
@@ -28,24 +23,20 @@ header nav {
     justify-content: flex-end;
     pointer-events: none;
 }
-
 header nav .menu-toggle {
     pointer-events: auto;
 }
-
 .header-background {
     position: relative;
     width: 100%;
     height: 300px;
     overflow: hidden;
 }
-
 .header-bg-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .logo-overlay {
     position: fixed;
     top: 1.75rem;
@@ -55,7 +46,6 @@ header nav .menu-toggle {
     z-index: 998;
     pointer-events: auto;
 }
-
 .logo-overlay a {
     text-decoration: none;
     cursor: pointer;
@@ -63,11 +53,9 @@ header nav .menu-toggle {
     transition: opacity 0.3s ease;
     pointer-events: auto;
 }
-
 .logo-overlay a:hover {
     opacity: 0.8;
 }
-
 .logo-overlay h1 {
     font-family: 'Ramaraja', serif;
     font-size: 1.20rem !important;
@@ -82,7 +70,6 @@ header nav .menu-toggle {
     text-shadow: none;
     text-align: left;
 }
-
 .menu-toggle {
     background: transparent;
     border: none;
@@ -94,21 +81,16 @@ header nav .menu-toggle {
     justify-content: center;
     transition: transform 0.3s ease;
 }
-
 .menu-toggle:hover {
     transform: scale(1.1);
 }
-
 .menu-toggle img {
     width: 40px;
     height: 40px;
 }
-
-/* Main */
 main {
     padding: 3rem 0 0 0;
 }
-
 .page-title {
     font-size: 48px;
     font-weight: 700;
@@ -117,8 +99,6 @@ main {
     padding-left: 32px;
     text-align: left;
 }
-
-/* Info Cards */
 .info-cards {
     display: flex;
     flex-direction: column;
@@ -126,7 +106,6 @@ main {
     margin-bottom: 60px;
     padding: 0 32px;
 }
-
 .info-card {
     position: relative;
     width: 326px;
@@ -134,7 +113,6 @@ main {
     border-radius: 30px;
     overflow: hidden;
 }
-
 .info-card a {
     text-decoration: none;
     display: block;
@@ -142,14 +120,12 @@ main {
     width: 100%;
     height: 100%;
 }
-
 .card-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-
 .card-button {
     position: absolute;
     bottom: 1.5rem;
@@ -167,28 +143,22 @@ main {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-
 .card-button:hover {
     transform: scale(1.05);
 }
-
-/* FAQ Section */
 .faq-section {
     margin-bottom: 60px;
     padding: 0 32px;
 }
-
 .faq-title {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-
 .faq-category {
     margin-bottom: 20px;
     margin-top: 30px;
 }
-
 .faq-category-btn {
     background-color: transparent;
     color: #E9D0A7;
@@ -201,23 +171,19 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .faq-category-btn:hover {
     background-color: #E9D0A7;
     color: #101B2B;
 }
-
 .faq-item {
     margin-bottom: 20px;
 }
-
 .faq-question {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 8px;
     color: #E9D0A7;
 }
-
 .faq-answer {
     font-size: 14px;
     line-height: 1.6;
@@ -225,58 +191,47 @@ main {
     opacity: 0.85;
     margin-bottom: 15px;
 }
-
-/* Footer */
 footer {
     background-color: #101B2B;
 }
-
 .social-media {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     padding: 2rem 0 1rem;
 }
-
 .social-media a img {
     width: 32px;
     height: 32px;
 }
-
 .footer-nav {
     text-align: center;
     padding: 1rem 2rem;
     font-size: 0.875rem;
     color: #E9D0A7;
 }
-
 .footer-nav-line1,
 .footer-nav-line2 {
     margin: 0.5rem 0;
 }
-
 .footer-nav a {
     color: #E9D0A7;
     text-decoration: none;
     cursor: pointer;
     transition: color 0.3s ease;
 }
-
 .footer-nav a:hover {
     color: #E9D0A7;
 }
-
 .footer-nav span {
     margin: 0.10rem;
     color: #ffffff;
 }
-
 .footer-hero {
     position: relative;
     width: 100%;
     height: 275px;
 }
-
 .footer-hero::before {
     content: '';
     position: absolute;
@@ -288,7 +243,6 @@ footer {
     z-index: 1;
     pointer-events: none;
 }
-
 .footer-background {
     width: 100%;
     height: 100%;

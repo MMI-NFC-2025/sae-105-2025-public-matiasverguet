@@ -6,8 +6,8 @@
 - NOM : Verguet--Bailly
 - PRÉNOM : Matias
 - GROUPE : C1
-- URL du site :
-- URL FIGMA :
+- URL du site : [chorus-symphonia.verguet-bailly.fr ](https://chorus-symphonia.verguet-bailly.fr/)
+- URL FIGMA :z
 
 ## Sujet
 
